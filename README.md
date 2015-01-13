@@ -10,4 +10,4 @@ its number on a numeric vector k
 8 - merge   xtotal, and ytotal using cbind
 9-compute the mean by factor(activity) using the aggregate function, storing the new data frame on the variable tidy
 10 - return tidy;
- FILES USED : features, X_test,X_train, y_test,y_train
+FILES USED : features, X_test,X_train, y_test,y_train
