@@ -4,6 +4,8 @@ xtrain <- imported data from X_train archive;
 xtest - imported data from X_test archive; 
 ytest <-imported data from y_test archive ; 
 ytrain <- imported data from y_train archive ;
+subtrain <-imported data from subject_train archive ;
+subtest <-imported data from subject_test archive ;
 k <- numeric vector containing every element of names that contais mean, std or Mean ;
 xtotal - merge of xtest and xtrain, only using columns number from k; 
 x - merge of ytrain and ytest, already with numeric values transforme into names;
