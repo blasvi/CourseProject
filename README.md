@@ -7,7 +7,8 @@ its number on a numeric vector k
 5 - create a new variable xtotal, with merged x_train and x_test, only considering the columns that are listed on k, uting rbind function
 6 - import both y_train and y_test using read.table function, naming the column "activity", merge both using rbind(same order as 5), creating ytotal
 7 - loop trough the vector and substitute numeric values for names as listed on activity_labels
-8 - merge   xtotal, and ytotal using cbind
-9-compute the mean by factor(activity) using the aggregate function, storing the new data frame on the variable tidy
+8- import subject_train and subject_test files, merge them using rbind;
+8 - merge   subject files, ytotal and xtotal using cbind
+9-compute   the mean of each variable for each activity and each subject using the aggregate function, storing the new data frame on the variable tidy;
 10 - return tidy;
-FILES USED : features, X_test,X_train, y_test,y_train
+FILES USED : features, X_test,X_train, y_test,y_train, subject_test and subject_train
