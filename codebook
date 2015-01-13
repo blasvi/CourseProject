@@ -1,0 +1,5 @@
+features - imported data from features archive, names <- character vector from 2nd column of features ;xtrain <- imported data from X_train archive;
+xtest - imported data from X_test archive; ytest <-imported data from y_test archive ; ytrain <- imported data from y_train archive ;
+k <- numeric vector containing every element of names that contais mean, std or Mean ; xtotal - merge of xtest and xtrain, only using columns number 
+from k; x - merge of ytrain and ytest, already with numeric values transforme into names xalmost <- merge of x and xtotal
+tidy - independent tidy data set with the average of each variable for each activity and each subject;
