@@ -7,7 +7,7 @@ ytrain <- imported data from y_train archive ;
 subtrain <-imported data from subject_train archive ;
 subtest <-imported data from subject_test archive ;
 k <- numeric vector containing every element of names that contais mean, std or Mean ;
-xtotal - merge of xtest and xtrain, only using columns number from k; 
+xtotal - merge of xtest and xtrain, only using columi number from k; 
 x - merge of ytrain and ytest, already with numeric values transforme into names;
 xalmost <- merge of x and xtotal
 tidy - independent tidy data set with the average of each variable for each activity and each subject;
